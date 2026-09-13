@@ -2,7 +2,7 @@
 
 Firefox / Chrome userscript。在 [ETtoday 新聞總覽](https://www.ettoday.net/news/news-list.htm) 隱藏不想看的新聞分類（例如遊戲）與關鍵字。
 
-![版本](https://img.shields.io/badge/version-2.0.0-blue)
+![版本](https://img.shields.io/badge/version-2.1.0-blue)
 
 ## 安裝
 
@@ -11,7 +11,8 @@ Firefox / Chrome userscript。在 [ETtoday 新聞總覽](https://www.ettoday.net
 
 ## 功能
 
-- 過濾列直接嵌在頁面原本的分類選單下方，不浮動、不遮內容
+- 過濾列是一張嵌在頁面分類選單下方的卡片，不浮動、不遮內容
+- 標題列可點收合，收合後只剩一行摘要（生效規則＋已隱藏則數），狀態會記憶
 - 分類 chip 點一下切換隱藏／顯示（灰底刪除線＝已隱藏）
 - 分類清單由目前頁面自動掃出來，新分類會自動出現
 - 標題關鍵字黑名單，逗號或空白分隔，Enter 直接套用
